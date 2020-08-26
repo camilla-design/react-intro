@@ -1,0 +1,15 @@
+.tab-content {
+    background: white;
+    padding: 1rem;
+    min-height: 150px;
+    border-radius: 0 6px 12px rgbs(0,0,0,0.05);
+    margin-top: -7px;
+}
+
+.nav-tabs .nav-link.active,
+.nav-tabs .nav-item.show .nav-link {
+    color: $color-secoundary;
+    background: white;
+    border-color: white;
+    border-radius: 12px 12px 0 0;
+}

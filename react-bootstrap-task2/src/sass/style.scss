@@ -1,0 +1,38 @@
+
+$color-secoundary: #6a6a68;
+$color-input: #d8c3a5;
+
+$color-primary: #e85a4f;
+
+$medium-width: 768px;
+
+$theme-colors: (
+    "primary": $color-primary,
+    "dark": $color-primary,
+);
+
+$input-bg: $color-input;
+$input-border-color: $color-input;
+$border-radius: 3px;
+
+$input-placeholder-color: white;
+$input-plaintext-color: white;
+
+$font-family-base: "Merriweather", serif;
+$headings-font-family: "Lato", sans-serif;
+$headings-color: $color-primary;
+
+$body-bg: #eae7dc;
+$body-color: $color-secoundary;
+
+$card-bg: transparent;
+$card-cap-bag: white;
+
+
+@import "~bootstrap/scss/bootstrap";
+
+@import "./partials/form";
+@import "./partials/tabs";
+@import "./partials/typography";
+@import "./partials/accordion";
+@import "./partials/jumbo";

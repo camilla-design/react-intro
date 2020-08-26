@@ -1,0 +1,43 @@
+html,
+body {
+  height: 100%;
+}
+body {
+  width: 90%;
+  margin: 0 auto;
+  color: #626262;
+  background: #EBEBEB;
+  font-family: "Lato", sans-serif;
+}
+
+h1 {
+  font-weight: 400;
+  font-size: 40px;
+  margin-bottom: 0;
+}
+
+h2 {
+  color: #2DAA88;
+  font-size: 22px;
+  margin-top: 0;
+}
+
+p {
+  font-weight: 300;
+}
+
+.card-box {
+  border-radius: 15px;
+  background: white;
+  height: 355px;
+}
+
+h3 {
+  background: #2DAA88;
+  padding: 1rem;
+  color: white;
+}
+
+.card-box p {
+  padding: 1rem;
+}
