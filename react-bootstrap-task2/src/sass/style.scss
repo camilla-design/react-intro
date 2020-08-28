@@ -1,0 +1,28 @@
+$color-secoundary: #666664;
+$color-input: white;
+
+$color-primary: #065CA7;
+
+$medium-width: 768px;
+
+$theme-colors: (
+    "primary": $color-primary,
+    "dark": $color-primary,
+);
+
+$input-bg: $color-input;
+$input-border-color: $color-input;
+$border-radius: 3px;
+
+$input-placeholder-color: white;
+$input-plaintext-color: white;
+
+$headings-color: black;
+
+$body-bg: #F7F7F7;
+$body-color: $color-secoundary;
+
+$card-bg: transparent;
+$card-cap-bag: white;
+
+@import "~bootstrap/scss/bootstrap";
