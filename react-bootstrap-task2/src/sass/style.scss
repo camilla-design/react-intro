@@ -25,4 +25,20 @@ $body-color: $color-secoundary;
 $card-bg: transparent;
 $card-cap-bag: white;
 
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: center;
+
+}
+
 @import "~bootstrap/scss/bootstrap";
